@@ -1,0 +1,26 @@
+<table class="table table-bordered" align="center">
+	<thead>
+    	<tr>
+        	<th>报修流水号</th>
+            <th>报修时间</th>
+            <th>报修科室</th>
+            <th>报修设备名称</th>
+            <th>报修状态</th>
+            <th>接修时间</th>
+            <th>接修人联系方式</th>
+        </tr>
+    </thead>
+    <volist name="workdata" id="bx_work_data">
+    <tbody>
+        <tr>
+            <td>{$bx_work_data.bx_id}</td>
+            <td>{$bx_work_data.bx_report_date_time}</td>
+            <td>{$bx_work_data.bx_hospital_departments}</td>
+            <td>{$bx_work_data.bx_equipment_name}</td>
+            <td>{$bx_work_data.bx_status}</td>
+            <td>{$bx_work_data.bx_take_date_time}</td>
+            <td>{$bx_work_data.bx_member_id}</td>
+        </tr>
+    </tbody>
+    </volist>
+</table> 

@@ -1,0 +1,47 @@
+<ul class="nav nav-pills">
+	<li><a href="#">第一步 请选择您所在的科室</a></li>
+	<li class="active"><a href="#">第二步 选择您要报库的设备和数量</a></li>
+	<li><a href="#">第三步 报库单提交预览</a></li>
+</ul>
+
+<div align="center">
+	<p>
+	<a href="#step1" data-toggle="tab" class="btn btn-success">上一步</a>
+	<button  type="submit" class="btn btn-danger">确认提交进入下一步报库单预览</button>
+	</p>
+</div>
+
+<table class="table table-bordered" align="center">
+	<thead>
+    	<tr>
+        	<th>设备特征码</th>
+            <th>设备名称</th>
+            <th>规格</th>
+            <th>数量（请输入正整数）</th>
+        </tr>
+    </thead>
+    <volist name="equipmentsdata" id="bk_equipments_data">
+    <tbody>
+        <tr>
+            <td>
+            	<select name="bk_equipment_id[]" class="select-mini select2Buttons">
+					<option>{$bk_equipments_data.equipment_id}</option>
+				</select>
+            </td>
+            <td>
+            	<select name="bk_equipment_name[]" class="select-mini select2Buttons">
+					<option>{$bk_equipments_data.equipment_name}</option>
+				</select>
+            </td>
+            <td>
+            	<select name="bk_equipment_specification[]" class="select-mini select2Buttons">
+					<option>{$bk_equipments_data.equipment_specification}</option>
+				</select>
+            </td>
+            <td>
+	            <input name="bk_quantity[]" id="bk_quantity-digit" title="* 请输入正整数" value="0" type="number" min="0"/>
+            </td>
+        </tr>
+    </tbody>
+    </volist>
+</table> 

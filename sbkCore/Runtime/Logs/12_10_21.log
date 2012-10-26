@@ -1,0 +1,4 @@
+[ 2012-10-21T12:18:47+08:00 ] ERR: (ThinkException) Table 'sbk.sbk_sbk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sbk_sbk`
+[ 2012-10-21T12:21:12+08:00 ] ERR: (ThinkException) Table 'sbk.sbk_sbk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sbk_sbk`

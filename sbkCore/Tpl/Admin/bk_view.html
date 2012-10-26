@@ -1,0 +1,54 @@
+<table class="table table-bordered" align="center">
+	<thead>
+    	<tr>
+        	<th>设备特征码</th>
+            <th>设备名称</th>
+            <th>规格</th>
+            <th>报库数量</th>
+            <th>报库科室</th>
+            <th>报库时间</th>
+        </tr>
+    </thead>
+    <volist name="bkdata" id="vo">
+    <tbody>
+        <tr>
+            <td>
+            	<select name="bk_equipment_id[]" class="select-mini select2Buttons">
+					<option>{$vo.bk_equipment_id}</option>
+				</select>		
+            </td>
+            
+
+            <td>            	
+            	<select name="bk_equipment_name[]" class="select-mini select2Buttons">
+					<option>{$vo.bk_equipment_name}</option>
+				</select>            	
+            </td>
+
+            <td>            	
+            	<select name="bk_equipment_specification[]" class="select-mini select2Buttons">
+					<option>{$vo.bk_equipment_specification}</option>
+				</select>
+            </td>
+
+            <td>           	
+	            <select name="bk_quantity[]" class="select-mini select2Buttons">
+	            	<option>{$vo.bk_quantity}</option>
+	            </select>
+            </td>
+            
+            <td>           	
+	            <select name="bk_hospital_departments[]" class="select-mini select2Buttons">
+	            	<option>{$vo.bk_hospital_departments}</option>
+	            </select>
+            </td>
+            
+            <td>           	
+	            <select name="bk_data_time[]" class="select-mini select2Buttons">
+	            	<option>{$vo.bk_data_time}</option>
+	            </select>
+            </td>
+        </tr>
+    </tbody>
+    </volist>
+</table>

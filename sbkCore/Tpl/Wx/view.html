@@ -1,0 +1,32 @@
+<include file="Public:header" />
+
+<div align="center">
+	<p><h1>邵阳市中心医院设备科维修人员网上接修平台</h1></p>
+</div>
+
+<div class="tabbable">
+	<ul class="nav nav-tabs">
+      <li class="active"><a href="#require" data-toggle="tab">待响应的报修请求 <span class="badge badge-warning">{$require_count}</span></a></li>
+      <li><a href="#take" data-toggle="tab">我正在维修的设备 <span class="badge badge-info">{$take_count}</span></a></li>
+      <li><a href="#done" data-toggle="tab">我已经维修好的设备 <span class="badge badge-success">{$done_count}</span></a></li>
+    <div class="pull-right">
+      欢迎您 维修员{$mid}
+      <a href="__URL__/logout" class="btn btn-warning">退出登录</a>
+    </div>
+    </ul>
+    
+    <div class="tab-content">
+    <div class="tab-pane active" id="require">
+      <include file="Wx:require" />
+    </div>
+    <div class="tab-pane" id="take">
+      <include file="Wx:take" />
+    </div>
+    <div class="tab-pane" id="done">
+      <include file="Wx:done" />
+    </div>
+    </div>
+</div>
+
+<include file="Public:footer" />
+

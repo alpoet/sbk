@@ -1,0 +1,69 @@
+<include file="Public:header" />
+  
+<div align="center"><p><h1>邵阳市中心医院设备科设备网上报库平台</h1></p></div>
+
+<ul class="nav nav-pills">
+	<li><a href="#">第一步 请选择您所在的科室</a></li>
+	<li><a href="#">第二步 选择您要报库的设备和数量</a></li>
+	<li class="active"><a href="#">第三步 报库单提交预览</a></li>
+</ul>
+
+<form id="bk_form" method="post" action="__URL__/add" class="kooForm">
+
+<div align="center">
+	<p>
+	<a href="__APP__/Bk/index" class="btn btn-danger">取消并返回重新报库</a>
+	<button  type="submit" class="btn btn-success">确认并提交报库请求</button>
+	</p>
+</div>
+ 
+<table class="table table-bordered" align="center">
+	<thead>
+    	<tr>
+        	<th>设备特征码</th>
+            <th>设备名称</th>
+            <th>规格</th>
+            <th>报库数量</th>
+            <th>报库科室</th>
+        </tr>
+    </thead>
+    <volist name="previewdata" id="vo">
+    <tbody>
+        <tr>
+            <td>
+            	<select name="bk_equipment_id[]" class="select-mini select2Buttons">
+					<option>{$vo.id}</option>
+				</select>		
+            </td>
+            
+
+            <td>            	
+            	<select name="bk_equipment_name[]" class="select-mini select2Buttons">
+					<option>{$vo.name}</option>
+				</select>            	
+            </td>
+
+            <td>            	
+            	<select name="bk_equipment_specification[]" class="select-mini select2Buttons">
+					<option>{$vo.specification}</option>
+				</select>
+            </td>
+
+            <td>           	
+	            <select name="bk_quantity[]" class="select-mini select2Buttons">
+	            	<option>{$vo.quantity}</option>
+	            </select>
+            </td>
+            
+            <td>           	
+	            <select name="bk_hospital_departments[]" class="select-mini select2Buttons">
+	            	<option>{$vo.departments}</option>
+	            </select>
+            </td>
+        </tr>
+    </tbody>
+    </volist>
+</table>
+</form> 
+
+<include file="Public:footer" />

@@ -1,0 +1,44 @@
+    </div><!-- /container -->
+    <script src="__PUBLIC__/js/jquery-1.8.1.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.js"></script>
+    <script src="__PUBLIC__/js/koo.js"></script>
+    <script src="__PUBLIC__/js/jQuery.select2Buttons.js"></script>
+    <!-- 表单验证 -->
+    <script>
+	    $(document).ready(function () { 
+	    	$('.kooForm').Koo(); 
+	    });
+    </script>
+    <!-- select转化成buttons -->
+    <script>
+    	$('.select2Buttons').select2Buttons();
+	</script>
+    <!-- 故障描述字数限制 -->
+    <script> 
+    	$(function() { 
+	    	$("textarea").keyup(); 
+	    }); 
+
+	    function strLenCalc(obj, checklen, maxlen) { 
+　　			var v = obj.val(), charlen = 0, maxlen = !maxlen ? 200 : maxlen, curlen = maxlen, len = v.length; 
+　　			for(var i = 0; i < v.length; i++) { 
+　　　　		if(v.charCodeAt(i) < 0 || v.charCodeAt(i) > 255) { 
+			curlen -= 1; 
+			} 
+		} 
+　　
+		if(curlen >= len) { 
+			$("#"+checklen).html("还可输入 <strong>"+Math.floor((curlen-len)/2)+"</strong> 个字").css('color', ''); 
+			$("#subBtn").removeAttr("disabled"); 
+				} else { 
+				$("#"+checklen).html("已经超过 <strong>"+Math.ceil((len-curlen)/2)+"</strong> 个字").css('color', '#FF0000'); 
+				$("#subBtn").attr("disabled", "disabled"); 
+				} 
+		} 
+	</script>
+    <script src="__PUBLIC__/js/ie6.min.js"></script>
+    <script>
+      $(function(){if($.browser.msie&&parseInt($.browser.version,10)===6){$('.row div[class^="span"]:last-child').addClass("last-child");$('[class*="span"]').addClass("margin-left-20");$(':button[class="btn"], :reset[class="btn"], :submit[class="btn"], input[type="button"]').addClass("button-reset");$(":checkbox").addClass("input-checkbox");$('[class^="icon-"], [class*=" icon-"]').addClass("icon-sprite");$(".pagination li:first-child a").addClass("pagination-first-child")}})
+    </script>
+  </body>
+</html>

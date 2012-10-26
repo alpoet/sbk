@@ -1,0 +1,171 @@
+[ 2012-10-18T08:34:30+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/AlbertZhu/Core/ThinkPHP/Common/functions.php 第 526 行.
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.000637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009771s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010484s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010910s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.011383s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.011731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001999s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.012541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004005s ]
+
+[ 2012-10-18T08:38:10+08:00 ] 127.0.0.1 /sbk/www/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/AlbertZhu/Sites/sbk/sbkCore/ThinkPHP/Common/functions.php 第 526 行.
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.000980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017278s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018291s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018787s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019266s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001994s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020355s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2012-10-18T08:53:24+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-10-18T08:56:17+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-10-18T09:02:34+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-10-18T09:14:26+08:00 ] 127.0.0.1 /sbk/www/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/AlbertZhu/Sites/sbk/sbkCore/ThinkPHP/Common/functions.php 第 526 行.
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.000541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007494s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008231s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.008406s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.008533s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.008635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.008915s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000175s ]
+
+[ 2012-10-18T14:46:07+08:00 ] 127.0.0.1 /sbk/www/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.097372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.097575s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/AlbertZhu/Sites/sbk/sbkCore/ThinkPHP/Common/functions.php 第 526 行.
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.097660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.420424s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.518111s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.632916s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.666601s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.688641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.204464s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.722662s ]
+INFO: [ view_end ] --END-- [ RunTime:0.107667s ]
+
+[ 2012-10-18T17:16:43+08:00 ] 127.0.0.1 /sbk/www/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/AlbertZhu/Sites/sbk/sbkCore/ThinkPHP/Common/functions.php 第 526 行.
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080687s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.089051s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.089907s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.104260s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.105299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017612s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.106955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009688s ]
+
+[ 2012-10-18T17:43:04+08:00 ] 127.0.0.1 /sbk/www/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/AlbertZhu/Sites/sbk/sbkCore/ThinkPHP/Common/functions.php 第 526 行.
+
+[ 2012-10-18T17:43:35+08:00 ] 127.0.0.1 /sbk/www/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/AlbertZhu/Sites/sbk/sbkCore/ThinkPHP/Common/functions.php 第 526 行.
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.000880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004122s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.005038s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.005291s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.005468s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.005625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.005903s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000223s ]
+
+[ 2012-10-18T18:49:57+08:00 ] 127.0.0.1 /sbk/www/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/AlbertZhu/Sites/sbk/sbkCore/ThinkPHP/Common/functions.php 第 526 行.
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.000678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003866s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.004569s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.004794s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.004973s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.005118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.005367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2012-10-18T19:11:58+08:00 ] 127.0.0.1 /sbk/www/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/AlbertZhu/Sites/sbk/sbkCore/ThinkPHP/Common/functions.php 第 526 行.
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.000396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001774s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.002192s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.002336s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.002459s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.002545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.002749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2012-10-18T23:26:10+08:00 ] 127.0.0.1 /sbk/www/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/AlbertZhu/Sites/sbk/sbkCore/ThinkPHP/Common/functions.php 第 526 行.
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.000380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001754s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.002161s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.002319s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.002443s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.002531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.002741s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000143s ]
+

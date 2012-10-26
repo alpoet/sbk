@@ -1,0 +1,28 @@
+<include file="Public:header" />
+
+<div align="center"><p><h1>邵阳市中心医院设备科设备网上报修平台</h1></p></div>
+
+<div>
+<ul class="nav nav-pills">
+	<li><a href="__APP__/Bx/index"><i class="icon-pencil"></i>  请求设备报修服务</a></li>
+	<li class="active"> <a href="__APP__/Bx/view" ><i class="icon-search"></i>  查询设备报修状态</a></li>
+</ul>
+</div>
+
+<div class="tabbable">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#wait" data-toggle="tab">等待接修的设备 <span class="badge badge-warning">{$wait_count}</span></a></li>
+    <li><a href="#work" data-toggle="tab">在维修中的设备 <span class="badge badge-success">{$work_count}</span></a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="wait">
+      <include file="Bx:wait" />
+    </div>
+    <div class="tab-pane" id="work">
+      <include file="Bx:work" />
+    </div>
+  </div>
+</div>
+
+<include file="Public:footer" />
+

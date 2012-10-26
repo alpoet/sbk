@@ -1,0 +1,14 @@
+[ 2012-10-20T08:29:36+08:00 ] ERR: (ThinkException) 无法加载模块:Bk
+[ 2012-10-20T08:31:21+08:00 ] ERR: (ThinkException) 无法加载模块:Bk
+[ 2012-10-20T08:31:24+08:00 ] ERR: (ThinkException) 无法加载模块:Bk
+[ 2012-10-20T14:08:42+08:00 ] ERR: (ThinkException) 非法操作:insert
+[ 2012-10-20T14:19:09+08:00 ] ERR: (ThinkException) 非法操作:insert
+[ 2012-10-20T14:36:58+08:00 ] ERR: (ThinkException) Table 'sbk.sbk_form' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sbk_form`
+[ 2012-10-20T14:38:42+08:00 ] ERR: (ThinkException) Table 'sbk.sbk_form' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sbk_form`
+[ 2012-10-20T14:38:59+08:00 ] ERR: (ThinkException) 非法操作:bx
+[ 2012-10-20T14:39:15+08:00 ] ERR: (ThinkException) 非法操作:bx
+[ 2012-10-20T14:39:19+08:00 ] ERR: (ThinkException) 非法操作:bx
+[ 2012-10-20T14:39:25+08:00 ] ERR: (ThinkException) Table 'sbk.sbk_form' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sbk_form`
